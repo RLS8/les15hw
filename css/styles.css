@@ -1,0 +1,105 @@
+/* Zet de box-sizing standaard op border-box voor alle elementen */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.2em;
+    height: 100%;
+    scroll-behavior: auto;
+}
+
+header {
+    background-color: #333;
+    border-radius: 6px;
+    color: #fff;
+    padding: 9px;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 9px 20px;
+}
+
+nav {
+    width: 100%;
+    background-color: #ff6600;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 40px;
+}
+
+nav a {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: #000;
+}
+
+.selected {
+  background-color: #fff;
+  color: #666;
+  border-top: 1px solid #555;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+input[type="text"], input[type="email"], textarea, button {
+    width: 100%;
+    border-radius: 6px;
+    border-width: thin;
+    border-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+
+button:hover {
+    background-color: #777;
+
+}
+.thead{
+  background-color: #f2f2f2;
+  font-weight: 600;
+  color: #333;
+}
