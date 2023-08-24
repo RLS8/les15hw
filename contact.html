@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+      <img src="img/logo-trans.png" alt="Logo van de website" class="logo" style="padding: 20px;">
+        <header>
+            <h1>Contact. Stuur me een bericht</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="mijncv.html">Mijn CV</a>
+            <div class="selected">Contact</div>
+        </nav>
+      <form action="mailto:djonzwan@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="voornaam" placeholder="Voornaam" required>
+            <input type="text" name="achternaam" placeholder="Achternaam" required>
+            <input type="email" name="email" placeholder="E-mailadres" required>
+            <textarea name="bericht" rows="5" placeholder="Bericht" required></textarea>
+            <button type="submit">Verstuur</button>
+        </form>
+        <footer>
+          Copyright Reshma 2023 ©
+        </footer>
+    </div>
+</body>
+</html>
